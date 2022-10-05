@@ -1,0 +1,14 @@
+file = _{
+  SOI ~
+  op* ~
+  EOI
+}
+
+op = { add | sub | left | right | read | write | while_loop }
+add = { "+" }
+sub = { "-" }
+left = { "<" }
+right = { ">" }
+write = { "." }
+read = { "," }
+while_loop = { "[" ~ op+ ~ "]" }

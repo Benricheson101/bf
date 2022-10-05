@@ -1,0 +1,19 @@
+[package]
+name = "bf"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "lib_bf"
+path = "src/lib.rs"
+
+[[binaries]]
+name = "test"
+path = "src/main.rs"
+
+[dependencies]
+inkwell = "0.0.0"
+pest = "2.4.0"
+pest_derive = "2.4.0"
