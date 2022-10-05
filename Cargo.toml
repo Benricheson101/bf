@@ -14,6 +14,5 @@ name = "test"
 path = "src/main.rs"
 
 [dependencies]
-inkwell = "0.0.0"
-pest = "2.4.0"
-pest_derive = "2.4.0"
+pest = "2.4"
+pest_derive = "2.4"
