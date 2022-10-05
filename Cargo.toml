@@ -5,14 +5,6 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[lib]
-name = "lib_bf"
-path = "src/lib.rs"
-
-[[binaries]]
-name = "test"
-path = "src/main.rs"
-
 [dependencies]
 pest = "2.4"
 pest_derive = "2.4"
